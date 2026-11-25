@@ -1,4 +1,4 @@
-# DemoWebShop Test Automation Framework
+# Ecommerce Test Automation Framework
 
 A Playwright-based end-to-end test automation framework built with TypeScript, following the Page Object Model (POM) design pattern and TestNG-style sequential flows. Targets the [DemoWebShop by Tricentis](https://demowebshop.tricentis.com) application for full e-commerce journey testing.
 
