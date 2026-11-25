@@ -1,0 +1,37 @@
+{
+  "name": "web-shop",
+  "version": "2.0.0",
+  "description": "Playwright E2E tests for demowebshop.tricentis.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:flow1": "npx playwright test 01-register.spec.ts",
+    "test:flow2": "npx playwright test 02-login.spec.ts",
+    "test:flow3": "npx playwright test 03-search-product.spec.ts",
+    "test:flow4": "npx playwright test 04-filter-sort.spec.ts",
+    "test:flow5": "npx playwright test 05-product-details.spec.ts",
+    "test:flow6": "npx playwright test 06-add-to-cart.spec.ts",
+    "test:flow7": "npx playwright test 07-update-cart.spec.ts",
+    "test:flow8": "npx playwright test 08-apply-coupon.spec.ts",
+    "test:flow9": "npx playwright test 09-checkout.spec.ts",
+    "test:flow10": "npx playwright test 10-payment.spec.ts",
+    "test:flow11": "npx playwright test 11-order-confirmation.spec.ts",
+    "test:flow12": "npx playwright test 12-order-history.spec.ts",
+    "test:flow13": "npx playwright test 13-logout.spec.ts",
+    "test:report": "npx playwright show-report",
+    "lint": "eslint tests/**/*.ts",
+    "lint:fix": "eslint tests/**/*.ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.7.0"
+  }
+}

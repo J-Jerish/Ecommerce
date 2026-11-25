@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Playwright artifacts
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Runtime-generated state files (created fresh on each test run)
+tests/state/
+tests/test-user.json
+
+# Environment secrets
+.env
+
+# TypeScript build output
+dist/
